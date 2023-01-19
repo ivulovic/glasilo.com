@@ -1,0 +1,51 @@
+.button{
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  &.primary{
+    color: white;
+    padding: 0.6rem;
+    background-color: var(--primary);
+  }
+  &.ghost{
+    background-color: transparent;
+    color: var(--border-dark);
+    padding: 0.45rem;
+    &:hover{
+        color: var(--text);
+    }
+  }
+  &.group-button{
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    background-color: var(--background-variant);
+    &.active{
+      background-color: var(--border-dark);
+    }
+  }
+  &.icon{
+    text-decoration: none;
+    background-color: var(--border);
+    border-radius: 4px;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    transition: background-color 0.5s ease;
+    &:hover{
+      background-color: var(--border-dark);
+    }
+    a{
+      height: 32px;
+      width: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

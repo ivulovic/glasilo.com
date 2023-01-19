@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Гласило</title>
+  <link>https://glasilo.com</link>
+  <description>Гласило отворених података</description>
+  <item>
+    <title>COVID статистика</title>
+    <link>https://glasilo.com/kovid19</link>
+    <description>Најновије информације о статусу вируса Корона у Србији.</description>
+  </item>
+  <item>
+    <title>Здравствене установе и Ковид амбуланте</title>
+    <link>https://glasilo.com/kovid-ambulante</link>
+    <description>Здравствене установе, домови здравља, које раде у Ковид режиму.</description>
+  </item>
+  <item>
+    <title>Загађење и квалитет ваздуха</title>
+    <link>https://glasilo.com/kvalitet-vazduha</link>
+    <description>Најсвежије информације о загађењу ваздуха у местима са мерним станицама.</description>
+  </item>
+</channel>
+
+</rss>
