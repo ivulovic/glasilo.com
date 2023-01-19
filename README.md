@@ -1,4 +1,4 @@
-[Pluoro](https://pluoro.com) web app
+[Glasilo](https://glasilo.com) web app
 
 - Covid Statistic
 - Covid Ambulances
